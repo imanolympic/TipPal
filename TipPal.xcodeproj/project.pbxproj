@@ -13,6 +13,9 @@
 		C81F7F5E24CE72BE000A748D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81F7F5C24CE72BE000A748D /* Main.storyboard */; };
 		C81F7F6024CE72BF000A748D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81F7F5F24CE72BF000A748D /* Assets.xcassets */; };
 		C81F7F6324CE72BF000A748D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81F7F6124CE72BF000A748D /* LaunchScreen.storyboard */; };
+		C851808124CE75C7007E22EA /* ViewControllerStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851808024CE75C7007E22EA /* ViewControllerStyler.swift */; };
+		C851808424CE7603007E22EA /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851808324CE7603007E22EA /* CurrencyTextField.swift */; };
+		C851808724CE76FE007E22EA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C851808624CE76FE007E22EA /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C81F7F5F24CE72BF000A748D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C81F7F6224CE72BF000A748D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C81F7F6424CE72BF000A748D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C851808024CE75C7007E22EA /* ViewControllerStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStyler.swift; sourceTree = "<group>"; };
+		C851808324CE7603007E22EA /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		C851808624CE76FE007E22EA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		C81F7F5524CE72BE000A748D /* TipPal */ = {
 			isa = PBXGroup;
 			children = (
+				C81F7F6424CE72BF000A748D /* Info.plist */,
+				C81F7F5F24CE72BF000A748D /* Assets.xcassets */,
+				C851808524CE76A5007E22EA /* Fonts */,
+				C81F7F6124CE72BF000A748D /* LaunchScreen.storyboard */,
+				C81F7F5C24CE72BE000A748D /* Main.storyboard */,
 				C81F7F5624CE72BE000A748D /* AppDelegate.swift */,
 				C81F7F5824CE72BE000A748D /* SceneDelegate.swift */,
-				C81F7F5A24CE72BE000A748D /* ViewController.swift */,
-				C81F7F5C24CE72BE000A748D /* Main.storyboard */,
-				C81F7F5F24CE72BF000A748D /* Assets.xcassets */,
-				C81F7F6124CE72BF000A748D /* LaunchScreen.storyboard */,
-				C81F7F6424CE72BF000A748D /* Info.plist */,
+				C81F7F6B24CE752C000A748D /* View Controllers */,
+				C851808224CE75DF007E22EA /* Custom Classes */,
+				C851807F24CE75B6007E22EA /* Stylers */,
 			);
 			path = TipPal;
+			sourceTree = "<group>";
+		};
+		C81F7F6B24CE752C000A748D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C81F7F5A24CE72BE000A748D /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C851807F24CE75B6007E22EA /* Stylers */ = {
+			isa = PBXGroup;
+			children = (
+				C851808024CE75C7007E22EA /* ViewControllerStyler.swift */,
+			);
+			path = Stylers;
+			sourceTree = "<group>";
+		};
+		C851808224CE75DF007E22EA /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C851808324CE7603007E22EA /* CurrencyTextField.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		C851808524CE76A5007E22EA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C851808624CE76FE007E22EA /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +169,7 @@
 				C81F7F6324CE72BF000A748D /* LaunchScreen.storyboard in Resources */,
 				C81F7F6024CE72BF000A748D /* Assets.xcassets in Resources */,
 				C81F7F5E24CE72BE000A748D /* Main.storyboard in Resources */,
+				C851808724CE76FE007E22EA /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +183,8 @@
 				C81F7F5B24CE72BE000A748D /* ViewController.swift in Sources */,
 				C81F7F5724CE72BE000A748D /* AppDelegate.swift in Sources */,
 				C81F7F5924CE72BE000A748D /* SceneDelegate.swift in Sources */,
+				C851808424CE7603007E22EA /* CurrencyTextField.swift in Sources */,
+				C851808124CE75C7007E22EA /* ViewControllerStyler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
