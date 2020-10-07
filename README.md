@@ -10,17 +10,15 @@ Time spent: **12** hours total
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount
-* [ ] User can select a tip percentage
-* [ ] App computes the total bill for the user 
+* [x] User can enter a bill amount
+* [x] User can select a tip percentage
+* [x] App computes the total bill for the user 
 
 The following **optional** features are implemented:
-* [ ] Using locale-specific currency and currency hundreds separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Using locale-specific currency and currency hundreds separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough 
 
@@ -29,10 +27,6 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/dZA98WE09y.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
