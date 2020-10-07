@@ -18,7 +18,6 @@ The following **optional** features are implemented:
 * [x] Using locale-specific currency and currency hundreds separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
-The following **additional** features are implemented:
 
 ## Video Walkthrough 
 
@@ -27,6 +26,9 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/dZA98WE09y.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes:
+* This app was made programmatically (i.e without storyboards).
 
 ## License
 
