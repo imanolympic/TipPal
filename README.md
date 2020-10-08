@@ -8,7 +8,7 @@ Time spent: **12** hours total
 
 ## User Stories
 
-The following **required** functionality is complete:
+App Features:
 
 * [x] User can enter a bill amount
 * [x] User can select a tip percentage
