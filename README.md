@@ -8,8 +8,6 @@ Time spent: **12** hours total
 
 ## User Stories
 
-App Features:
-
 * [x] User can enter a bill amount
 * [x] User can select a tip percentage
 * [x] App computes the total bill for the user 
