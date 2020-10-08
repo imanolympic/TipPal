@@ -1,8 +1,8 @@
-# Pre-work - *TipPal*
+# *TipPal*
 
 **TipPal** is a tip calculator application for iOS.
 
-Submitted by: **Theron Mansilla**
+Author(s): **Theron Mansilla**
 
 Time spent: **12** hours total
 
