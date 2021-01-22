@@ -4,8 +4,6 @@
 
 Author(s): **Theron Mansilla**
 
-Time spent: **12** hours total
-
 ## User Stories
 
 * [x] User can enter a bill amount
