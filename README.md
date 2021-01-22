@@ -2,15 +2,13 @@
 
 **TipPal** is a tip calculator application for iOS.
 
-Author(s): **Theron Mansilla**
+Author: **Theron Mansilla**
 
-## User Stories
+## Features
 
 * [x] User can enter a bill amount
 * [x] User can select a tip percentage
 * [x] App computes the total bill for the user 
-
-The following **optional** features are implemented:
 * [x] Using locale-specific currency and currency hundreds separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
