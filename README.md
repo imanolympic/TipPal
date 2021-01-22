@@ -15,7 +15,7 @@ Author: **Theron Mansilla**
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of the implemented features:
 
 <img src='http://g.recordit.co/dZA98WE09y.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
